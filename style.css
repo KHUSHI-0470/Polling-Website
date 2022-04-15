@@ -1,0 +1,78 @@
+#khushi1{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: xxx-large;
+}
+
+
+#khushi2{
+    text-align: center;
+    font-size: xx-large;
+    font-style: large;
+}
+
+.form-hidden{
+    display: none;
+}
+
+
+#createAccount{
+    text-align: center;
+
+}
+
+
+#linklogIn{
+    text-align: center;
+    font-style: oblique;
+    color: rgb(137, 2, 226);
+    font-weight: 700;
+    font-size: 60px;
+}
+
+*{
+    background-image: url('123456.jpg');
+}
+
+
+
+#khushi8{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#khushi3{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: xxx-large;
+}
+
+
+
+#email{
+    text-align: center;
+    font-size: xx-large;
+    font-style: large;
+}
+
+
+
+
+#logIn{
+    text-align: center;
+
+}
+
+
+
+#khushi9{
+            padding: 10px;
+            border-radius: 10px;
+}
+
+#linkcreateAccount{
+    font-size: 80px;
+}
+

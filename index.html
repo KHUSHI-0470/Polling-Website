@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Polling Website-New Registration</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="signup.js"></script>
+</head>
+<body>
+
+    
+
+<form class="form-hidden" id="createAccount">
+    <h1 id="khushi1">Online Voting System</h1>
+
+ <hr>
+
+   <h2 id="khushi2">New Registration</h2>
+
+   <br>
+    <div>
+        <label><b>Username</b></label>
+        <input type="text" name="first-name" placeholder="username">
+    </div>
+
+    <br>
+
+    <div>
+        <label><b>E-mail</b></label>
+        <input type="email" name="email" placeholder="E-mail">
+    </div>
+
+   <br>
+
+    <div>
+        <label><b>Gender</b></label>
+        <select name="gender" placeholder="Gender">
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+        </select>
+    </div>
+         
+    <br>
+          
+   
+    <div>
+        <label><b>Password</b></label>
+        <input type="password"  placeholder="Password">
+    </div>
+
+    <br>
+
+    <button id="khushi8" onsubmit="register()">
+        Submit
+    </button>
+
+    <br>
+
+    <br>
+
+<a href="./" id="linklogIn">Already a User? Sign in here </a>
+    
+</form>
+
+
+    
+    
+  
+    <form  id="logIn">
+        <h1 id="khushi3">Online Voting System</h1>
+    <hr>
+      <div>
+        <h2>Login</h2>
+        <label><b>E-mail</b></label>
+        <input id="email" type="email" name="email" placeholder="E-mail">
+      </div>  
+      
+      <br>
+      <div>
+        <label><b>Password</b></label>
+        <input id="password" type="password" placeholder="Password">
+      </div>
+
+
+      <br>
+      <button onsubmit="login()" id="khushi9">
+        login
+      </button>
+      
+      
+      <br>
+      <br>
+      <div>
+        <a href="./" id="linkcreateAccount">New User? Register here</a>
+      </div>
+   
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+<script src="index.js"></script>
+<!-- <script type="module" src="firebase.js"></script> -->
+<script src="welcome.js"></script>
+
+
+
+
+
+<!-- <script>
+  import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+// Follow this pattern to import other Firebase services
+// import { } from 'firebase/<service>';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+// Get a list of cities from your database
+async function getCities(db) {
+  const citiesCol = collection(db, 'cities');
+  const citySnapshot = await getDocs(citiesCol);
+  const cityList = citySnapshot.docs.map(doc => doc.data());
+  return cityList;
+}
+</script> -->
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
